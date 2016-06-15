@@ -165,7 +165,7 @@ Target "PaketTemplate" <| fun _ ->
   PaketTemplate (fun p ->
     { p with
         TemplateType = PaketTemplateType.File
-        Id = Some "Hopac-StrongName"
+        Id = Some "Hopac.StrongName"
         Files = [ PaketFileInfo.Include ("bin", "lib/net45") ; PaketFileInfo.Exclude "bin/FSharp.Core*"]
         Authors = authors
         Owners = authors
